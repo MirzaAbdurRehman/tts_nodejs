@@ -1,7 +1,7 @@
 
 
 const Http = require('http');  // Non- Global Core Module:
-const data = require('./srtdentData.js'); // Importing data from advanceApi.js
+const data = require('./studentData.js'); // Importing data from advanceApi.js
 
 
 Http.createServer((req, res) => {
