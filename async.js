@@ -1,14 +1,14 @@
 
 
 
-// let firstName = 'Hammad';
-// let lastName = "";
+// let firstName1 = 'Hammad';
+// let lastName1 = "";
 
 // setTimeout(() => {
-//     lastName = 'Khanzada';
+//     lastName1 = 'Khanzada';
 // },2000);
 
-// console.log(firstName + ' ' + lastName); // Output: Hammad Khanzada after 2 seconds
+// console.log(firstName1 + ' ' + lastName1); // Output: Hammad Khanzada after 2 seconds
 
 
 
@@ -24,7 +24,7 @@
 
 // const setLastName = new Promise((resolve, reject) => {
 //     setTimeout(() => {
-//         lastName = 'Khanzada';
+//         lastName = 'Khanzada'; 
 //         resolve();
 //     }, 2000);
 //     })
@@ -54,3 +54,6 @@ const displayFullName = async () => {
     await setLastName();
     console.log(firstName + ' ' + lastName); // Output: Abid Mirza after 2 seconds
 }
+
+
+displayFullName();
